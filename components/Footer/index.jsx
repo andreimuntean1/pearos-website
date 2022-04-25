@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className='bg-zinc-800 px-10 py-14'>
       <div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between lg:flex-col lg:gap-16'>
           <div>
             <div className='flex items-center gap-2 opacity-40 hover:opacity-80 transition-opacity'>
               <Logo width={28} height={38} />
@@ -32,7 +32,7 @@ function Footer() {
               <Link href={'mailto:alex@pearos.xyz'} passHref><a><Button type='secondary' styles='text-sm mt-4'>Contact us</Button></a></Link>
             </div>
           </div>
-          <div className='flex gap-20'>
+          <div className='flex gap-20 sm:flex-wrap sm:gap-12 lg:mb-8'>
             <div className=''>
               <Text type='small-title' styles='opacity-75'>{data.footer.links.col1.title}</Text>
               <ul className='mt-2 flex flex-col gap-1'>
