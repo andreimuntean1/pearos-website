@@ -1,0 +1,69 @@
+.burger {
+  height: 3em;
+  width: 3em;
+  position: relative;
+  font-size: 8px;
+  cursor: pointer;
+  transition: 0.2s all;
+  -webkit-tap-highlight-color: transparent;
+}
+.burger .burger-lines:after {
+  left: 0;
+  top: -1em;
+}
+.burger .burger-lines:before {
+  left: 1em;
+  top: 1em;
+}
+.burger:after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 150%;
+  width: 150%;
+  top: -25%;
+  left: -25%;
+}
+.burger .burger-lines {
+  top: 50%;
+  margin-top: -0.125em;
+}
+.burger .burger-lines, .burger .burger-lines:after, .burger .burger-lines:before {
+  pointer-events: none;
+  display: block;
+  content: '';
+  width: 100%;
+  border-radius: 0.25em;
+  background-color: white;
+  height: 0.25em;
+  position: absolute;
+  transform: rotate(0);
+  transition: 0.2s top 0.2s, 0.1s left, 0.2s transform, 0.4s background-color 0.2s;
+}
+.burger .burger-lines:after {
+  left: 0;
+  top: -1em;
+}
+.burger .burger-lines:before {
+  left: 1em;
+  top: 1em;
+}
+.burger .burger-lines:after, .burger .burger-lines::before {
+  width: 2em;
+}
+.burger.open .burger-lines, .burger.open .burger-lines:after, .burger.open .burger-lines:before {
+  transition: 0.2s background-color, 0.2s top, 0.2s left, 0.2s transform 0.15s;
+}
+.burger.open .burger-lines {
+  background-color: transparent;
+}
+.burger.open .burger-lines:before, .burger.open .burger-lines:after {
+  left: 0.5em;
+  top: 0px;
+}
+.burger.open .burger-lines:before {
+  transform: rotate(-45deg);
+}
+.burger.open .burger-lines:after {
+  transform: rotate(45deg);
+}

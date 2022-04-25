@@ -1,20 +1,51 @@
 {
-  "name": "pearos",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.4",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "eslint": "8.13.0",
-    "eslint-config-next": "12.1.4"
-  }
+	"name": "pearos-website",
+	"version": "1.0.0",
+	"description": "pearOS is a linux distribution that aims for UI and UX, offering a mac like feeling, now even on older PCs. Why hackintosh when you can pearintosh? Try it now, it's free!",
+	"keywords": [
+		"pearos",
+		"pear",
+		"linux",
+		"distro",
+		"pear linux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andreimuntean1/pearos-website.git"
+	},
+	"homepage": "https://pearos.xyz",
+	"author": {
+		"name": "Andrei Muntean",
+		"email": "contact@andreimuntean.dev",
+		"url": "https://andreimuntean.dev"
+	},
+	"license": "Pear Public License",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-solid-svg-icons": "^6.1.1",
+		"@fortawesome/react-fontawesome": "^0.1.18",
+		"classnames": "^2.3.1",
+		"disable-scroll": "^0.6.0",
+		"framer-motion": "^6.3.1",
+		"gsap": "^3.10.2",
+		"just-detect-adblock": "^1.1.0",
+		"next": "12.1.4",
+		"react": "18.0.0",
+		"react-device-detect": "^2.2.2",
+		"react-dom": "18.0.0",
+		"use-subscription": "^1.6.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.4",
+		"eslint": "8.13.0",
+		"eslint-config-next": "12.1.4",
+		"postcss": "^8.4.12",
+		"tailwindcss": "^3.0.23"
+	}
 }

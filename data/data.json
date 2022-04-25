@@ -1,0 +1,173 @@
+{
+  "homepage": {   
+    "hero": {
+      "title": "Free. Easy. Better.",
+      "paragraph": "pearOS is the free alternative to MacOS while having the ability to enjoy all the advantages of an open-source Linux distro."
+    },
+    "section1": {
+      "title": "pearOS: a new base, a new design, a new everything",
+      "paragraph": "The greatest release of pearOS is NiceC0re. An arch based Linu Distro made to look a bit different than the current pearOS versions. This version will be the main pearOS version, classic versions will be still developed, by the tradition, every time when Apple releases a new macOS version",
+      "images": [
+        {
+          "src": "/images/slide_1.png",
+          "alt": "monterey screenshot",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "src": "/images/slide_2.png",
+          "alt": "catalina screenshot",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/slide_3.png",
+          "alt": "installer language selector",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/slide_4.png",
+          "alt": "installation finish",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/slide_5.png",
+          "alt": "nicecore installer",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "src": "/images/slide_6.png",
+          "alt": "nicecore screenshot",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "src": "/images/slide_7.png",
+          "alt": "nicecore theme swither",
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "src": "/images/slide_8.png",
+          "alt": "pearos monterey launchpad",
+          "width": 1919,
+          "height": 1079
+        }
+      ]
+    },
+    "section2": {
+      "title": "The pearOS installer",
+      "paragraph": "pearOS NiceC0re is the first pearOS version to try the new installer, installer made in Electron with nodeJS, which is, at the moment, quite unstable, since it is a beta, and the installer is still in development.",
+      "image": {
+        "src": "/images/installer.png",
+        "alt": "nicec0re installer",
+        "width": 1920,
+        "height": 1080
+      } 
+    },
+    "section3": {
+      "title": "Purpose of the OS",
+      "paragraph": "The biggest purpose of this Linux Distro is to get the smoothet Linux experience, with lots of animations, blur, and effects.",
+      "image": {
+        "src": "/images/nc-screenshot.png",
+        "alt": "nicec0re screenshot",
+        "width": 1440,
+        "height": 900
+      } 
+    },
+    "section4": {
+      "title": "Frequently asked questions",
+      "questions": [
+        {
+          "question": "What is NiceC0re?",
+          "answer": "NiceC0re is an alternative for the current pearOS versions, made to look different than the actual macOS versions, with own design"
+        },
+        {
+          "question": "What is pearOS NiceC0re based on?",
+          "answer": "Arch Linux, with KDE Plasma as Desktop Environment"
+        },
+        {
+          "question": "What are the basic system requirements for pearOS?",
+          "answer": "Anything that can run Windows 7 with Aero Effects, can run pearOS with no problem"
+        },
+        {
+          "question": "How stable is pearOS?",
+          "answer": "At the moment, pearOS might have bugs, since there is only one developer, I can't do everything perfect"
+        },
+        {
+          "question": "Where do I submit Bugs that I found?",
+          "answer": "The ways to submit a bug found in pearOS can be found by navigating to the Support page"
+        },
+        {
+          "question": "How many developers are in pearOS?",
+          "answer": "There is only one developer, Alexandru Bălan, but community can help developing various things, a good example would be Andrei Muntean, who designed and developed this website."
+        }
+      ]
+    }
+  },
+  "downloads": {
+    "title": "Downloads",
+    "description": "By downloading pearOS, you understand that I am not responsible about any data loss, error that happens in your device. Make sure to use a USB flash drive to try and/or install pearOS on your PC."
+  },
+  "support": {
+    "title": "Support",
+    "description": "Get support on pearOS discord, Reddit (r/pearos) or contact the developer at alex@pearos.xyz"
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact the pearOS developer"
+    },
+    "links": {
+      "col1": {
+        "title": "Social",
+        "links": [
+          {
+            "text": "YouTube",
+            "url": "https://youtube.com/pearOS"
+          },
+          {
+            "text": "GitHub",
+            "url": "https://github.com/Pear-Project"
+          },
+          {
+            "text": "Instagram",
+            "url": "https://instagram.com/pear_os"
+          }
+        ]
+      },
+      "col2": {
+        "title": "Legal",
+        "links": [
+          {
+            "text": "pearOS Public License",
+            "url": "https://raw.githubusercontent.com/Pear-Project/Pear-Public-License/main/LICENSE"
+          },
+          {
+            "text": "Terms of Service",
+            "url": "https://pearos.xyz/legal/terms-of-service"
+          },
+          {
+            "text": "Privacy Policy",
+            "url": "https://privacy.pearos.xyz/"
+          }
+        ]
+      },
+      "col3": {
+        "title": "Source Code:",
+        "links": [
+          {
+            "text": "Main Repository",
+            "url": "https://github.com/Pear-Project"
+          },
+          {
+            "text": "pearOS Arch Based repository",
+            "url": "https://github.com/pearOS-archlinux/"
+          }
+        ]
+      }
+    }
+  }
+}
