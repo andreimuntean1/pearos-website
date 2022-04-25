@@ -32,7 +32,7 @@ Start the server
 
 ![Homescreen](https://i.imgur.com/FULmYzy.png)
 
-![Homescreen]()
+![Homescreen](https://imgur.com/a/Ks8Kum0.png)
 
 ## Documentation
 
