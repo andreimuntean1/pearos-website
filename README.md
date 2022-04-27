@@ -221,8 +221,8 @@ The `openState` and `onPress` are strongly recommended to be the destructured va
 | :- | :- | :- | :- |
 | `text` | `string` | Not applicable | The popup displayed text |
 | `buttonText` | `string` | Not applicable | The popup button label |
-| `openState` | `function` | `true`, `false` | Current state, from the`useState` hook |
-| `onPress` | `string` | `true`, `false` (function argument) | The function that updates the state from the`useState` hook |
+| `openState` | `function` | `true`, `false` | Current state, from the `useState` hook |
+| `onPress` | `string` | `true`, `false` (function argument) | The function that updates the state from the `useState` hook |
 
 ### Loader
 
@@ -258,7 +258,7 @@ pearOS SVG logo turned into a React component. The width and height can be deter
 Import the component
 
 ```jsx
-import Logo from 'components/Logo`
+import Logo from 'components/Logo'
 ```
 
 This component does not accept any other JSX elements inside it, so it can be used as a self-closing tag for cleaner code.
