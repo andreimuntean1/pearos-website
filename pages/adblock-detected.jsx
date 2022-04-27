@@ -3,18 +3,14 @@ import Head from 'next/head'
 import Button from 'components/Button'
 import Text from 'components/Text'
 import Wrapper from 'components/Wrapper'
-import { detectAnyAdblocker } from 'just-detect-adblock'
 import { useRouter } from 'next/router'
+import { detectAdblock } from 'utils/AdBlockDetect'
 
 function AdblockDetected() {
   const router = useRouter()
 
   useEffect(() => {
-    detectAnyAdblocker().then((detected) => {
-      if(!detected) {
-        router.push('/')
-      }
-    })
+    detectAdblock((usingAdblock) => !usingAdblock && router.push('/'))
   }, [])
   
   return (

@@ -3,17 +3,14 @@ import '../styles/burger.css'
 import '../styles/loading.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { detectAnyAdblocker } from 'just-detect-adblock'
+import { detectAdblock } from 'utils/AdBlockDetect'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
-    detectAnyAdblocker().then((detected) => {
-      if(detected) {
-        router.push('/adblock-detected')
-      }
-    })
+    detectAdblock(a => console.log(a))
+    detectAdblock((usingAdblock) => usingAdblock && router.push('/adblock-detected'))
   }, [])
 
   return <Component {...pageProps} />
