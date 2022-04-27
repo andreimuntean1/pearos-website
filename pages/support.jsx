@@ -39,7 +39,7 @@ function Support() {
                 </Button>
               </a>
             </Link>
-            <Link href={'#'} passHref>
+            <Link href={'https://www.reddit.com/r/pearos/'} passHref>
               <a>
                 <Button type='secondary' styles='flex gap-2 items-center justify-center'>
                   <FontAwesomeIcon icon={faRedditAlien} />
