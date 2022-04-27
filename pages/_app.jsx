@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter()
 
   useEffect(() => {
-    detectAdblock(a => console.log(a))
     detectAdblock((usingAdblock) => usingAdblock && router.push('/adblock-detected'))
   }, [])
 
