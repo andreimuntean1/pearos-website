@@ -1,5 +1,5 @@
 {
-  "homepage": {   
+  "homepage": {
     "hero": {
       "title": "Free. Easy. Better.",
       "paragraph": "pearOS is the free alternative to MacOS while having the ability to enjoy all the advantages of an open-source Linux distro."
@@ -11,8 +11,8 @@
         {
           "src": "/images/slide_1.png",
           "alt": "monterey screenshot",
-          "width": 1366,
-          "height": 768
+          "width": 1920,
+          "height": 1080
         },
         {
           "src": "/images/slide_2.png",
@@ -41,20 +41,20 @@
         {
           "src": "/images/slide_6.png",
           "alt": "nicecore screenshot",
-          "width": 1440,
-          "height": 900
+          "width": 1920,
+          "height": 1080
         },
         {
           "src": "/images/slide_7.png",
           "alt": "nicecore theme swither",
-          "width": 1440,
-          "height": 900
+          "width": 1920,
+          "height": 1080
         },
         {
           "src": "/images/slide_8.png",
           "alt": "pearos monterey launchpad",
-          "width": 1919,
-          "height": 1079
+          "width": 1920,
+          "height": 1080
         }
       ]
     },
@@ -66,7 +66,7 @@
         "alt": "nicec0re installer",
         "width": 1920,
         "height": 1080
-      } 
+      }
     },
     "section3": {
       "title": "Purpose of the OS",
@@ -76,7 +76,7 @@
         "alt": "nicec0re screenshot",
         "width": 1440,
         "height": 900
-      } 
+      }
     },
     "section4": {
       "title": "Frequently asked questions",
